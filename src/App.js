@@ -1,10 +1,14 @@
 import './App.css';
-import { AiFillAndroid } from "react-icons/ai";
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import Event from './components/event/Event';
 function App() {
   return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!<AiFillAndroid />
-      </h1>
+    <>
+      <Header/>
+      <Home/>
+      <Event/>
+    </>
   );
 }
 
