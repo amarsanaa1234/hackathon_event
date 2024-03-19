@@ -1,35 +1,36 @@
 body {
   font-family: "Montserrat", "Helvetica", Arial, sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    color: #F1F1F1;
-    background-color: black;
-    background-image: url('./image/image.png');
-    background-repeat: repeat;
-    background-attachment: scroll;
-    overflow-x: hidden;
-    margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  color: #f1f1f1;
+  background-color: black;
+  background-image: url("./image/image.png");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  overflow-x: hidden;
+  margin: 0;
 }
-@media only screen and (min-width: 532px){
+@media only screen and (min-width: 532px) {
   body:after {
-      background-image: url('./image/image.png');
-      content: "";
-      position: fixed;
-      height: 300%;
-      width: 300%;
-      top: -100%;
-      left: -50%;
-      opacity: 0.5;
-      -webkit-animation: grain 8s steps(10) infinite;
-      -moz-animation: grain 8s steps(10) infinite;
-      -o-animation: grain 8s steps(10) infinite;
-      animation: grain 8s steps(10) infinite;
-      z-index: -2;
- }
+    background-image: url("./image/image.png");
+    content: "";
+    position: fixed;
+    height: 300%;
+    width: 300%;
+    top: -100%;
+    left: -50%;
+    opacity: 0.5;
+    -webkit-animation: grain 8s steps(10) infinite;
+    -moz-animation: grain 8s steps(10) infinite;
+    -o-animation: grain 8s steps(10) infinite;
+    animation: grain 8s steps(10) infinite;
+    z-index: -2;
+  }
 }
 
 @keyframes grain {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -o-transform: translate(0, 0);
@@ -91,8 +92,7 @@ body {
   }
 }
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
