@@ -9,3 +9,8 @@
     font-size: 120px;
     color: #04F049;
   }
+  .customFont{
+    font-family: 'Rampart One', sans-serif;
+    color:#04F049;
+    font-size: 80px; 
+  }
