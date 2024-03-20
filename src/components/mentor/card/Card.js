@@ -1,12 +1,14 @@
 import React from "react";
+import "./Card.css";
 
-const Card = ({ url, name, quote, mgt, bg }) => {
+const Card = ({ url, name, quote, mgt, bg, opa }) => {
   return (
     <>
-      <div className={mgt}>
+      <div className={`${mgt} ${opa} opaAlwaysOne`}>
         <div
           className={
-            bg ? "bg-gradient-to-b from-emerald-400 to-emerald-100" : "bg-gradient-to-b from-red-400 to-red-100"
+            bg ? "bg-gradient-to-b from-emerald-500 to-emerald-200 own" : "bg-gradient-to-b from-red-500 to-red-200 own"
+            // "own"
           }
         >
           <img src={url} alt="mentor" className="pt-7" />
