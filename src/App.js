@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Event from "./components/event/Event";
 import Mentor from "./components/mentor/Mentor";
-import Sponser from "./components/sponser/Sponser";
 function App() {
   return (
     <>
@@ -11,7 +10,6 @@ function App() {
       <Home />
       <Event />
       <Mentor />
-      <Sponser />
     </>
   );
 }
