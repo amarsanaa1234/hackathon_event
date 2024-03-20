@@ -4,6 +4,8 @@ import Home from "./components/home/Home";
 import Event from "./components/event/Event";
 import HeaderWithTimer from "./components/header/HTimer";
 import CustomizedTimeline from "./components/header/timeLine";
+import Mentor from "./components/mentor/Mentor";
+
 function App() {
   const startDate = new Date(); // Start date
   const endDate = new Date(startDate.getTime() + 24 * 60 * 60 * 1000); // End Date
@@ -11,11 +13,7 @@ function App() {
     <>
       <Header />
       <Home />
-      <HeaderWithTimer
-        title="Hackathon дуустал:"
-        startDate={startDate}
-        endDate={endDate}
-      />
+      <HeaderWithTimer title="Hackathon дуустал:" startDate={startDate} endDate={endDate} />
       <div className="flex justify-center mt-40">
         <h1 className="text-5xl font-bold text-center customFont">Timeline</h1>
       </div>
@@ -23,6 +21,8 @@ function App() {
         <CustomizedTimeline />
       </div>
       <Event />
+      <Event />
+      <Mentor />
     </>
   );
 }

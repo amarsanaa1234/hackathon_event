@@ -1,0 +1,11 @@
+/* .opa:hover {
+  opacity: 0.7;
+} */
+
+.opa:nth-child(1):hover {
+  opacity: 0.1;
+}
+
+.atsa {
+  opacity: 0.2;
+}
