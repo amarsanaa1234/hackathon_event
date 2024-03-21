@@ -6,10 +6,10 @@ import Sponser from "./components/sponser/Sponser";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Home />
-      <Event />
-      {/* <Sponser /> */}
+      <Event /> */}
+      <Sponser />
     </>
   );
 }
