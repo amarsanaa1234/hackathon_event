@@ -3,6 +3,77 @@
 @tailwind utilities;
 
 .rampart-one-regular {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: #04f049;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-main {
+  background-image: radial-gradient(circle, #c36208 0%, #cbcfd7 100%);
+}
+.color-supple {
+  background-color: white;
+}
+
+.gsize {
+  padding: 2.5rem;
+}
+
+.imgSize {
+  height: 3.5rem;
+  width: 15rem;
+}
+
+.sponser-card {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2ac7d;
+  background-image: linear-gradient(45deg, #f7a167 25%, transparent 25%),
+    linear-gradient(-45deg, #f2ac7d 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ef9960 75%),
+    linear-gradient(-45deg, transparent 75%, #f2ac7d 75%);
+  background-size: 20px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.sponser-card:hover {
+  background-size: 30px 30px;
+}
+
+.infinite-scroll-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.infinite-scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+}
+
+.infinite-scroll-duplicate {
+  padding-left: 20px;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+/* =======
     font-family: "Rampart One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -14,3 +85,4 @@
     color:#04F049;
     font-size: 80px; 
   }
+>>>>>>> d78aa3fc257e66b9b162b65baea6a0a6d6979313 */
