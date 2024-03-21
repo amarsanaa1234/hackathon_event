@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+.header-timer-container {
+    text-align: center;
+  }
+  
+  .header-title {
+    color: #fff;
+    /* font-family: "Bungee Hairline", sans-serif; */
+    font-size: 5.5rem;
+    font-weight: bolder;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    
+  }
