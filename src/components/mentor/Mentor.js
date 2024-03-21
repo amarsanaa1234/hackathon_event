@@ -10,12 +10,12 @@ const Mentor = () => {
   const [isHover, setIsHover] = useState(false);
   return (
     <>
-      <div className="text-center font-sans pt-60">
+      <div className="text-center font-sans pt-60 mb-44">
         <h1 className="text-6xl text-zinc-200 pt-9 pb-8">Learn from Mentors</h1>
         <h2 className="text-white/40 pb-7">This is a changeable text</h2>
         {!isHover && (
           <div
-            className="grid-cols-6 grid justify-center gap-4 mx-52"
+            className="grid-cols-6 grid justify-center gap-4 x_linear"
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
           >
@@ -29,7 +29,7 @@ const Mentor = () => {
         )}
         {isHover && (
           <div
-            className="grid-cols-6 grid justify-center gap-4 mx-52"
+            className="grid-cols-6 grid justify-center gap-4 x_linear"
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
           >
@@ -40,7 +40,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
@@ -55,7 +54,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
@@ -69,7 +67,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
@@ -84,7 +81,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
@@ -98,7 +94,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
@@ -113,7 +108,6 @@ const Mentor = () => {
                 <>
                   <p>Education: SICT</p>
                   <p>Job Title: Mentor job</p>
-                  <p>Some other informations</p>
                 </>
               }
               quote="Something about mentor"
