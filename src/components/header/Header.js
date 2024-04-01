@@ -1,7 +1,11 @@
 import React from "react";
 import { AiFillCodeSandboxCircle, AiFillHome } from "react-icons/ai";
 import { BsFillCalendarDateFill, BsYoutube, BsDiscord } from "react-icons/bs";
-import { RiQuestionAnswerFill, RiTeamFill, RiInstagramFill } from "react-icons/ri";
+import {
+  RiQuestionAnswerFill,
+  RiTeamFill,
+  RiInstagramFill,
+} from "react-icons/ri";
 import { SiWebmoney } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
 
