@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./HTimer.css";
+import HTimer from "./HTimer.css";
 
 const HeaderWithTimer = ({ title, startDate, endDate }) => {
   const calculateTimeLeft = () => {
@@ -44,9 +44,9 @@ const HeaderWithTimer = ({ title, startDate, endDate }) => {
 
   return (
     <div className="flex flex-col">
-      <div className="header-timer-container">
-        <h1 className="header-title">{title}</h1>
-        <div className="timer">
+      <div className="header-timer-container text-center">
+        <h1 className="header-title text-white font-bold">{title}</h1>
+        <div className="timer text-white text-3xl font-bold">
           {timerComponents.length ? (
             timerComponents
           ) : (
