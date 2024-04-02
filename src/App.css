@@ -37,10 +37,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2ac7d;
-  background-image: linear-gradient(45deg, #f7a167 25%, transparent 25%),
-    linear-gradient(-45deg, #f2ac7d 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ef9960 75%),
-    linear-gradient(-45deg, transparent 75%, #f2ac7d 75%);
+  background-color: #7df2b2;
+  background-image: linear-gradient(45deg, #95f767 25%, transparent 25%),
+    linear-gradient(-45deg, #7df289 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #86ef60 75%),
+    linear-gradient(-45deg, transparent 75%, #8df27d 75%);
   background-size: 20px 20px;
   border-radius: 10px;
   cursor: pointer;
