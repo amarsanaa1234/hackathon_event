@@ -5,11 +5,11 @@ import Sponser_2 from "./assets/sponser_2.png";
 
 function Sponser() {
   return (
-    <section className="bg-main h-screen text-black">
-      <div className="p-20 ">
-        <div className="m-6 sm:m-24">
+    <section className="h-screen text-black">
+      <div className="p-4 sm:p-20">
+        <div className="m-4 sm:m-24">
           <div className="flex justify-center text-4xl">
-            <h2 className="text-[#f4f4f4] text-4xl font-mono">
+            <h2 className="text-5xl md:text-7xl lg:text-8xl xl:text-8xl font-rampart-one text-green-500">
               <TextTyping text="Main | Sponsor" />
             </h2>
           </div>
@@ -20,7 +20,7 @@ function Sponser() {
                   <img src={Sponser_2} className="imgSize" alt="Sponser 1" />
                 </div>
               </div>
-              <div className="flex justify-center py-5 items-center text-[#f4f4f4]">
+              <div className="text-5xl md:text-7xl lg:text-8xl xl:text-7xl font-rampart-one text-green-500">
                 <TextTyping text="Sponsor" />
               </div>
               <div className="grid grid-cols-1 gap-4 rounded-md sm:grid-cols-2">

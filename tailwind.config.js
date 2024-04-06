@@ -10,7 +10,9 @@ module.exports = {
       maxTypeScale: 1.618,
       lineHeight: 1.2,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        "rampart-one": ["Rampart One", "sans-serif"],},
   },
   plugins: [require("tailwind-fluid-typography")],
 };

@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Event from "./components/event/Event";
 import Sponser from "./components/sponser/Sponser";
+import Swiper from "./components/Swiper/Swiper";
 import HeaderWithTimer from "./components/header/HTimer";
 import CustomizedTimeline from "./components/header/timeLine";
 import Mentor from "./components/mentor/Mentor";
@@ -28,6 +29,7 @@ function App() {
       </div>
       <Event />
       <Mentor />
+      <Swiper />
       <Sponser />
       <Footer />
     </>
