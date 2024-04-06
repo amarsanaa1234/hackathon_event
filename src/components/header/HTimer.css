@@ -5,12 +5,12 @@
   
   .header-title {
     color: #fff;
-    font-size:4rem;
+    /* font-size:4rem; */
     font-weight: bolder;
   }
   
   .timer {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-family: "Bungee Hairline", sans-serif;
     font-weight: bolder;
     color: #fff;

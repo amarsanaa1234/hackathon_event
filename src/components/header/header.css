@@ -165,20 +165,19 @@
   display: inline-block;
   position: relative;
   z-index: 2;
-  
+
 }
 
 @media only screen and (max-width: 768px) {
   .wrapper{
-    position: fixed;
-    top: 33vh;
-    left: 0.5vh;
+    display: flex;
+    flex-direction: column;
     z-index: 2;
+    left: 1dvh;
   }
   .wrapper-contact {
-    position: fixed;
-    top:  33vh;
-    left: 46vh;
+    display: flex;
+    right: 10dvh;
     z-index: 2;
   }
 

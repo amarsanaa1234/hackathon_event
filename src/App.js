@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
+      {/* <Home /> */}
       <HeaderWithTimer
         title="Hackathon дуустал:"
         startDate={startDate}
