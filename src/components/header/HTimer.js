@@ -45,8 +45,8 @@ const HeaderWithTimer = ({ title, startDate, endDate }) => {
   return (
     <div className="flex flex-col">
       <div className="header-timer-container text-center">
-        <h1 className="header-title text-white font-bold">{title}</h1>
-        <div className="timer text-white text-3xl font-bold">
+        <h1 className="header-title text-white font-bold fluid-4xl">{title}</h1>
+        <div className="timer text-white text-3xl font-bold fluid-l">
           {timerComponents.length ? (
             timerComponents
           ) : (
