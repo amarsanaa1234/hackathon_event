@@ -21,17 +21,24 @@ function App() {
         startDate={startDate}
         endDate={endDate}
       />
-      <div className="flex justify-center mt-40">
+      <div className="flex justify-center mt-40" id="timeline">
         <h1 className="text-5xl font-bold text-center customFont">Timeline</h1>
       </div>
-      <div className="flex mt-10 mb-20">
+      <div className="flex mt-10 mb-10">
         <CustomizedTimeline />
       </div>
-      <Event />
-      <Mentor />
-      <Swiper />
-      <Sponser />
-      <Footer />
+      <div id="hutulbur">
+        <Swiper />
+      </div>
+      <div id="mentor">
+        <Mentor />
+      </div>
+      <div id="sponser">
+        <Sponser />
+      </div>
+      <div id="footer">
+        <Footer />
+      </div>
     </>
   );
 }
