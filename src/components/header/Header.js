@@ -17,68 +17,88 @@ function Header() {
       <div class="wrapper">
         <div class="navbar">
           <div class="navbar__item -blue">
-            <span class="navbar__icon">
-              <AiFillHome />
-              <span class="tooltiptext">Нүүр</span>
-            </span>
+            <a href="#">
+              <span class="navbar__icon">
+                <AiFillHome />
+                <span class="tooltiptext">Нүүр</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item -orange">
-            <span class="navbar__icon">
-              <BsFillCalendarDateFill />
-              <span class="tooltiptext">Хөтөлбөр</span>
-            </span>
+            <a href="#hutulbur">
+              <span class="navbar__icon">
+                <BsFillCalendarDateFill />
+                <span class="tooltiptext">Хөтөлбөр</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item -yellow">
-            <span class="navbar__icon">
-              <AiFillCodeSandboxCircle />
-              <span class="tooltiptext">Sponser</span>
-            </span>
+            <a href="#sponser">
+              <span class="navbar__icon">
+                <AiFillCodeSandboxCircle />
+                <span class="tooltiptext">Sponser</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item -navy-blue">
-            <span class="navbar__icon">
-              <RiTeamFill />
-              <span class="tooltiptext">Mentor</span>
-            </span>
+            <a href="#mentor">
+              <span class="navbar__icon">
+                <RiTeamFill />
+                <span class="tooltiptext">Mentor</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item -purple">
-            <span class="navbar__icon">
-              <RiQuestionAnswerFill />
-              <span class="tooltiptext">FAQ</span>
-            </span>
+            <a href="#footer">
+              <span class="navbar__icon">
+                <RiQuestionAnswerFill />
+                <span class="tooltiptext">FAQ</span>
+              </span>
+            </a>
           </div>
         </div>
       </div>
       <div class="wrapper-contact">
         <div class="navbar">
           <div class="navbar__item__contact -white">
-            <span class="navbar__icon">
-              <FaFacebook />
-              <span class="tooltiptext_contact">Facebook</span>
-            </span>
+            <a href="https://www.facebook.com/SysAndCoTech">
+              <span class="navbar__icon">
+                <FaFacebook />
+                <span class="tooltiptext_contact">Facebook</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item__contact -white">
-            <span class="navbar__icon">
-              <RiInstagramFill />
-              <span class="tooltiptext_contact">Instagram</span>
-            </span>
+            <a href="https://www.instagram.com/syscotechclub_/">
+              <span class="navbar__icon">
+                <RiInstagramFill />
+                <span class="tooltiptext_contact">Instagram</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item__contact -white">
-            <span class="navbar__icon">
-              <BsDiscord />
-              <span class="tooltiptext_contact">Discord</span>
-            </span>
+            <a href="https://discord.gg/">
+              <span class="navbar__icon">
+                <BsDiscord />
+                <span class="tooltiptext_contact">Discord</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item__contact -white">
-            <span class="navbar__icon">
-              <SiWebmoney />
-              <span class="tooltiptext_contact">Website</span>
-            </span>
+            <a href="https://syscotech.club/">
+              <span class="navbar__icon">
+                <SiWebmoney />
+                <span class="tooltiptext_contact">Website</span>
+              </span>
+            </a>
           </div>
           <div class="navbar__item__contact -white">
-            <span class="navbar__icon">
-              <BsYoutube />
-              <span class="tooltiptext_contact">Youtube</span>
-            </span>
+            <a href="https://www.youtube.com/@syscotechclub6784">
+              <span class="navbar__icon">
+                <BsYoutube />
+                <span class="tooltiptext_contact">Youtube</span>
+              </span>
+            </a>
           </div>
         </div>
       </div>
